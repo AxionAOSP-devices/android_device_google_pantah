@@ -29,6 +29,8 @@ AXION_CAMERA_REAR_INFO := 50,12
 AXION_CAMERA_FRONT_INFO := 10.8
 AXION_MAINTAINER := rmp
 
+TARGET_INCLUDE_VIPERFX := true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="panther-user 16 BP2A.250805.005 13691446 release-keys" \
     BuildFingerprint=google/panther/panther:16/BP2A.250805.005/13691446:user/release-keys \

@@ -29,6 +29,8 @@ AXION_CAMERA_REAR_INFO := 50,12
 AXION_CAMERA_FRONT_INFO := 10.8
 AXION_MAINTAINER := rmp
 
+TARGET_INCLUDE_VIPERFX := true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="cheetah-user 15 BP1A.250505.005.B1 13277630 release-keys" \
     BuildFingerprint=google/cheetah/cheetah:15/BP1A.250505.005.B1/13277630:user/release-keys \

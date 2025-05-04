@@ -229,6 +229,16 @@
       "ResetOnInit": true
     },
     {
+      "Name": "PerTaskMaxIowaitBoost",
+      "Path": "/proc/vendor_sched/per_task_iowait_boost_max_value",
+      "Values": [
+        "0",
+        "512"
+      ],
+      "DefaultIndex": 0,
+      "ResetOnInit": true
+    },
+    {
       "Name": "CAMUClampBoost",
       "Path": "/proc/vendor_sched/groups/cam/uclamp_min",
       "Values": [
@@ -1313,6 +1323,12 @@
       "Value": "0"
     },
     {
+      "PowerHint": "CAMERA_STREAMING_EXTREME",
+      "Node": "PerTaskMaxIowaitBoost",
+      "Duration": 0,
+      "Value": "0"
+    },
+    {
       "PowerHint": "CAMERA_STREAMING_HIGH",
       "Node": "PowerHALCameraRunning",
       "Duration": 0,
@@ -1439,6 +1455,12 @@
       "Value": "0"
     },
     {
+      "PowerHint": "CAMERA_STREAMING_HIGH",
+      "Node": "PerTaskMaxIowaitBoost",
+      "Duration": 0,
+      "Value": "0"
+    },
+    {
       "PowerHint": "CAMERA_STREAMING_STANDARD",
       "Node": "PowerHALCameraRunning",
       "Duration": 0,
@@ -1547,6 +1569,12 @@
       "Value": "0"
     },
     {
+      "PowerHint": "CAMERA_STREAMING_STANDARD",
+      "Node": "PerTaskMaxIowaitBoost",
+      "Duration": 0,
+      "Value": "0"
+    },
+    {
       "PowerHint": "CAMERA_STREAMING_LOW",
       "Node": "PowerHALCameraRunning",
       "Duration": 0,
@@ -1621,6 +1649,12 @@
     {
       "PowerHint": "CAMERA_STREAMING_LOW",
       "Node": "NPITaskPacking",
+      "Duration": 0,
+      "Value": "0"
+    },
+    {
+      "PowerHint": "CAMERA_STREAMING_LOW",
+      "Node": "PerTaskMaxIowaitBoost",
       "Duration": 0,
       "Value": "0"
     },
@@ -1914,6 +1948,12 @@
       "Value": "170"
     },
     {
+      "PowerHint": "DISPLAY_IDLE",
+      "Node": "PerTaskMaxIowaitBoost",
+      "Duration": 0,
+      "Value": "0"
+    },
+    {
       "PowerHint": "DISPLAY_UPDATE_IMMINENT",
       "Node": "CPULittleClusterDownRateLimitUs",
       "Duration": 50,
@@ -2020,6 +2060,12 @@
       "Node": "CPUBigClusterResponseTimeMs",
       "Duration": 0,
       "Value": "164"
+    },
+    {
+      "PowerHint": "GAME",
+      "Node": "PerTaskMaxIowaitBoost",
+      "Duration": 0,
+      "Value": "512"
     },
     {
       "PowerHint": "THERMAL_VIRTUAL-SKIN-HINT_LIGHT",

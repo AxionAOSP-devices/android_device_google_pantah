@@ -111,6 +111,7 @@
         "1836000",
         "1491000",
         "1197000",
+        "1024000",
         "0"
       ],
       "ResetOnInit": true
@@ -145,6 +146,7 @@
         "2507000",
         "2252000",
         "984000",
+        "1106000",
         "1426000",
         "1826000",
         "1277000",
@@ -1835,25 +1837,25 @@
       "PowerHint": "FIXED_PERFORMANCE",
       "Node": "CPUBigClusterMaxFreq",
       "Duration": 0,
-      "Value": "1277000"
+      "Value": "1106000"
     },
     {
       "PowerHint": "FIXED_PERFORMANCE",
       "Node": "CPUBigClusterMinFreq",
       "Duration": 0,
-      "Value": "1277000"
+      "Value": "1106000"
     },
     {
       "PowerHint": "FIXED_PERFORMANCE",
       "Node": "CPUMidClusterMaxFreq",
       "Duration": 0,
-      "Value": "1491000"
+      "Value": "1024000"
     },
     {
       "PowerHint": "FIXED_PERFORMANCE",
       "Node": "CPUMidClusterMinFreq",
       "Duration": 0,
-      "Value": "1491000"
+      "Value": "1024000"
     },
     {
       "PowerHint": "FIXED_PERFORMANCE",

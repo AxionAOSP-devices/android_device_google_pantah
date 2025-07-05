@@ -12,4 +12,5 @@ BOARD_VENDOR_KERNEL_RAMDISK_KERNEL_MODULES += $(addprefix $(KERNEL_MODULE_DIR)/,
 
 DEVICE_PATH := device/google/pantah
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_pantah
+INIT_LIB := //$(DEVICE_PATH):libinit_pantah
+$(call soong_config_set,libinit,vendor_init_lib,$(INIT_LIB))
